@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180EB7B11E8E8DC60064237D /* HistoryDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180EB7B01E8E8DC60064237D /* HistoryDetailCell.swift */; };
+		180EB7B31E8EA9A10064237D /* parkingZone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 180EB7B21E8EA9A10064237D /* parkingZone.jpg */; };
+		180EB7B51E8EBFCC0064237D /* WalletRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180EB7B41E8EBFCC0064237D /* WalletRequest.swift */; };
+		180EB7B71E8ED4110064237D /* AddVehicleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180EB7B61E8ED4110064237D /* AddVehicleRequest.swift */; };
+		180EB7BE1E8EDED40064237D /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180EB7BD1E8EDED40064237D /* History.swift */; };
+		180EB7C11E8F17440064237D /* car_available.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 180EB7BF1E8F17440064237D /* car_available.jpg */; };
+		180EB7C21E8F17440064237D /* car_unavailable.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 180EB7C01E8F17440064237D /* car_unavailable.jpg */; };
+		180EB7C41E8F1F030064237D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 180EB7C31E8F1F030064237D /* icon.png */; };
+		180EB7C61E8F237B0064237D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180EB7C51E8F237B0064237D /* Images.xcassets */; };
+		1860A4DE1E8A3F9600CB9B44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A4DD1E8A3F9600CB9B44 /* AppDelegate.swift */; };
+		1860A4E01E8A3F9600CB9B44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A4DF1E8A3F9600CB9B44 /* ViewController.swift */; };
+		1860A4E31E8A3F9700CB9B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1860A4E11E8A3F9700CB9B44 /* Main.storyboard */; };
+		1860A4E61E8A3F9700CB9B44 /* Parking_System.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1860A4E41E8A3F9700CB9B44 /* Parking_System.xcdatamodeld */; };
+		1860A4E81E8A3F9700CB9B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1860A4E71E8A3F9700CB9B44 /* Assets.xcassets */; };
+		1860A4EB1E8A3F9700CB9B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1860A4E91E8A3F9700CB9B44 /* LaunchScreen.storyboard */; };
+		1860A4F61E8A3F9700CB9B44 /* Parking_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A4F51E8A3F9700CB9B44 /* Parking_SystemTests.swift */; };
+		1860A51E1E8BDE2000CB9B44 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A51D1E8BDE2000CB9B44 /* AppConfig.swift */; };
+		1860A5201E8BDEA300CB9B44 /* CommonUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A51F1E8BDEA300CB9B44 /* CommonUtility.swift */; };
+		1860A5221E8BE00100CB9B44 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A5211E8BE00100CB9B44 /* RegistrationViewController.swift */; };
+		1860A52C1E8D273B00CB9B44 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A52B1E8D273B00CB9B44 /* ServiceManager.swift */; };
+		1860A52E1E8D277400CB9B44 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A52D1E8D277400CB9B44 /* APIClient.swift */; };
+		1860A5301E8D290900CB9B44 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A52F1E8D290900CB9B44 /* LoginRequest.swift */; };
+		1860A5321E8D2E0700CB9B44 /* RegistrationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A5311E8D2E0700CB9B44 /* RegistrationRequest.swift */; };
+		1860A5341E8D350C00CB9B44 /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A5331E8D350C00CB9B44 /* ProgressIndicator.swift */; };
+		1860A5361E8D3A0D00CB9B44 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A5351E8D3A0D00CB9B44 /* LoginResponse.swift */; };
+		1860A5381E8D3A5400CB9B44 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A5371E8D3A5400CB9B44 /* Parser.swift */; };
+		1860A53A1E8D463700CB9B44 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A5391E8D463700CB9B44 /* UserInfo.swift */; };
+		1860A53C1E8D494400CB9B44 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A53B1E8D494400CB9B44 /* HomeViewController.swift */; };
+		1860A53E1E8D495800CB9B44 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A53D1E8D495800CB9B44 /* ProfileViewController.swift */; };
+		1860A5401E8D4F4700CB9B44 /* SlotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A53F1E8D4F4700CB9B44 /* SlotCell.swift */; };
+		1860A5441E8D53FC00CB9B44 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1860A5421E8D53FC00CB9B44 /* home.png */; };
+		1860A5451E8D53FC00CB9B44 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 1860A5431E8D53FC00CB9B44 /* profile.png */; };
+		1860A5471E8D54DE00CB9B44 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A5461E8D54DE00CB9B44 /* HistoryViewController.swift */; };
+		1860A5491E8D569E00CB9B44 /* profileImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1860A5481E8D569E00CB9B44 /* profileImg.png */; };
+		1860A54B1E8E607900CB9B44 /* SlotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A54A1E8E607900CB9B44 /* SlotViewController.swift */; };
+		1860A54D1E8E622F00CB9B44 /* SlotDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860A54C1E8E622F00CB9B44 /* SlotDetailCell.swift */; };
+		1860A54F1E8E68A700CB9B44 /* route.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1860A54E1E8E68A700CB9B44 /* route.jpeg */; };
+		1860A5511E8E7BEE00CB9B44 /* addVehicle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1860A5501E8E7BEE00CB9B44 /* addVehicle.png */; };
+		1860A5531E8E7C5900CB9B44 /* parking_lot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1860A5521E8E7C5900CB9B44 /* parking_lot.jpg */; };
+		893D1A18D0C21F2670F4FAC9 /* Pods_Parking_System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F263AC689A1FE6744F67F5CC /* Pods_Parking_System.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1860A4F21E8A3F9700CB9B44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1860A4D21E8A3F9600CB9B44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1860A4D91E8A3F9600CB9B44;
+			remoteInfo = "Parking System";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180EB7B01E8E8DC60064237D /* HistoryDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryDetailCell.swift; sourceTree = "<group>"; };
+		180EB7B21E8EA9A10064237D /* parkingZone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = parkingZone.jpg; path = ImageAssets/parkingZone.jpg; sourceTree = "<group>"; };
+		180EB7B41E8EBFCC0064237D /* WalletRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletRequest.swift; sourceTree = "<group>"; };
+		180EB7B61E8ED4110064237D /* AddVehicleRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddVehicleRequest.swift; sourceTree = "<group>"; };
+		180EB7BD1E8EDED40064237D /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		180EB7BF1E8F17440064237D /* car_available.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = car_available.jpg; path = ImageAssets/car_available.jpg; sourceTree = "<group>"; };
+		180EB7C01E8F17440064237D /* car_unavailable.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = car_unavailable.jpg; path = ImageAssets/car_unavailable.jpg; sourceTree = "<group>"; };
+		180EB7C31E8F1F030064237D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ImageAssets/icon.png; sourceTree = "<group>"; };
+		180EB7C51E8F237B0064237D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1860A4DA1E8A3F9600CB9B44 /* Parking System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parking System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1860A4DD1E8A3F9600CB9B44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1860A4DF1E8A3F9600CB9B44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1860A4E21E8A3F9700CB9B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1860A4E51E8A3F9700CB9B44 /* Parking_System.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Parking_System.xcdatamodel; sourceTree = "<group>"; };
+		1860A4E71E8A3F9700CB9B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1860A4EA1E8A3F9700CB9B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1860A4EC1E8A3F9700CB9B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1860A4F11E8A3F9700CB9B44 /* Parking SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parking SystemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1860A4F51E8A3F9700CB9B44 /* Parking_SystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parking_SystemTests.swift; sourceTree = "<group>"; };
+		1860A4F71E8A3F9700CB9B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1860A5001E8A40E800CB9B44 /* Parking System-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Parking System-Bridging-Header.h"; sourceTree = "<group>"; };
+		1860A51D1E8BDE2000CB9B44 /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		1860A51F1E8BDEA300CB9B44 /* CommonUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtility.swift; sourceTree = "<group>"; };
+		1860A5211E8BE00100CB9B44 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		1860A52B1E8D273B00CB9B44 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		1860A52D1E8D277400CB9B44 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		1860A52F1E8D290900CB9B44 /* LoginRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		1860A5311E8D2E0700CB9B44 /* RegistrationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationRequest.swift; sourceTree = "<group>"; };
+		1860A5331E8D350C00CB9B44 /* ProgressIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
+		1860A5351E8D3A0D00CB9B44 /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		1860A5371E8D3A5400CB9B44 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		1860A5391E8D463700CB9B44 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		1860A53B1E8D494400CB9B44 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1860A53D1E8D495800CB9B44 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1860A53F1E8D4F4700CB9B44 /* SlotCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotCell.swift; sourceTree = "<group>"; };
+		1860A5421E8D53FC00CB9B44 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = ImageAssets/home.png; sourceTree = "<group>"; };
+		1860A5431E8D53FC00CB9B44 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = ImageAssets/profile.png; sourceTree = "<group>"; };
+		1860A5461E8D54DE00CB9B44 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		1860A5481E8D569E00CB9B44 /* profileImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profileImg.png; path = ImageAssets/profileImg.png; sourceTree = "<group>"; };
+		1860A54A1E8E607900CB9B44 /* SlotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotViewController.swift; sourceTree = "<group>"; };
+		1860A54C1E8E622F00CB9B44 /* SlotDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotDetailCell.swift; sourceTree = "<group>"; };
+		1860A54E1E8E68A700CB9B44 /* route.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = route.jpeg; path = ImageAssets/route.jpeg; sourceTree = "<group>"; };
+		1860A5501E8E7BEE00CB9B44 /* addVehicle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addVehicle.png; path = ImageAssets/addVehicle.png; sourceTree = "<group>"; };
+		1860A5521E8E7C5900CB9B44 /* parking_lot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = parking_lot.jpg; path = ImageAssets/parking_lot.jpg; sourceTree = "<group>"; };
+		CFBD9A89AB8626D99D0D8359 /* Pods-Parking System.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parking System.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parking System/Pods-Parking System.debug.xcconfig"; sourceTree = "<group>"; };
+		DA6D2F2C290723C829E5E3BA /* Pods-Parking System.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parking System.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parking System/Pods-Parking System.release.xcconfig"; sourceTree = "<group>"; };
+		F263AC689A1FE6744F67F5CC /* Pods_Parking_System.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parking_System.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1860A4D71E8A3F9600CB9B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893D1A18D0C21F2670F4FAC9 /* Pods_Parking_System.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1860A4EE1E8A3F9700CB9B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180EB7B81E8ED5530064237D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1860A52F1E8D290900CB9B44 /* LoginRequest.swift */,
+				1860A5351E8D3A0D00CB9B44 /* LoginResponse.swift */,
+				1860A5391E8D463700CB9B44 /* UserInfo.swift */,
+				1860A5311E8D2E0700CB9B44 /* RegistrationRequest.swift */,
+				180EB7B41E8EBFCC0064237D /* WalletRequest.swift */,
+				180EB7B61E8ED4110064237D /* AddVehicleRequest.swift */,
+				180EB7BD1E8EDED40064237D /* History.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		180EB7B91E8ED55B0064237D /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				1860A52D1E8D277400CB9B44 /* APIClient.swift */,
+				1860A52B1E8D273B00CB9B44 /* ServiceManager.swift */,
+			);
+			name = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		180EB7BA1E8ED5630064237D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1860A4DF1E8A3F9600CB9B44 /* ViewController.swift */,
+				1860A5211E8BE00100CB9B44 /* RegistrationViewController.swift */,
+				1860A53B1E8D494400CB9B44 /* HomeViewController.swift */,
+				1860A53D1E8D495800CB9B44 /* ProfileViewController.swift */,
+				1860A5461E8D54DE00CB9B44 /* HistoryViewController.swift */,
+				1860A54A1E8E607900CB9B44 /* SlotViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		180EB7BB1E8ED5790064237D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1860A53F1E8D4F4700CB9B44 /* SlotCell.swift */,
+				1860A54C1E8E622F00CB9B44 /* SlotDetailCell.swift */,
+				180EB7B01E8E8DC60064237D /* HistoryDetailCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		180EB7BC1E8ED59E0064237D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1860A5331E8D350C00CB9B44 /* ProgressIndicator.swift */,
+				1860A5371E8D3A5400CB9B44 /* Parser.swift */,
+				1860A51F1E8BDEA300CB9B44 /* CommonUtility.swift */,
+				1860A51D1E8BDE2000CB9B44 /* AppConfig.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		1860A4D11E8A3F9600CB9B44 = {
+			isa = PBXGroup;
+			children = (
+				1860A5001E8A40E800CB9B44 /* Parking System-Bridging-Header.h */,
+				1860A4DC1E8A3F9600CB9B44 /* Parking System */,
+				1860A4F41E8A3F9700CB9B44 /* Parking SystemTests */,
+				1860A4DB1E8A3F9600CB9B44 /* Products */,
+				9CA76D4EB47DD58AAB8364FA /* Pods */,
+				A5E6141C83B8DEB95910158A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1860A4DB1E8A3F9600CB9B44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1860A4DA1E8A3F9600CB9B44 /* Parking System.app */,
+				1860A4F11E8A3F9700CB9B44 /* Parking SystemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1860A4DC1E8A3F9600CB9B44 /* Parking System */ = {
+			isa = PBXGroup;
+			children = (
+				180EB7BC1E8ED59E0064237D /* Common */,
+				180EB7BB1E8ED5790064237D /* Views */,
+				180EB7BA1E8ED5630064237D /* ViewControllers */,
+				180EB7B91E8ED55B0064237D /* ServiceLayer */,
+				180EB7B81E8ED5530064237D /* Model */,
+				1860A5411E8D534000CB9B44 /* ImageAssets */,
+				1860A4DD1E8A3F9600CB9B44 /* AppDelegate.swift */,
+				1860A4E11E8A3F9700CB9B44 /* Main.storyboard */,
+				1860A4E71E8A3F9700CB9B44 /* Assets.xcassets */,
+				1860A4E91E8A3F9700CB9B44 /* LaunchScreen.storyboard */,
+				1860A4EC1E8A3F9700CB9B44 /* Info.plist */,
+				1860A4E41E8A3F9700CB9B44 /* Parking_System.xcdatamodeld */,
+				180EB7C51E8F237B0064237D /* Images.xcassets */,
+			);
+			path = "Parking System";
+			sourceTree = "<group>";
+		};
+		1860A4F41E8A3F9700CB9B44 /* Parking SystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				1860A4F51E8A3F9700CB9B44 /* Parking_SystemTests.swift */,
+				1860A4F71E8A3F9700CB9B44 /* Info.plist */,
+			);
+			path = "Parking SystemTests";
+			sourceTree = "<group>";
+		};
+		1860A5411E8D534000CB9B44 /* ImageAssets */ = {
+			isa = PBXGroup;
+			children = (
+				180EB7C31E8F1F030064237D /* icon.png */,
+				180EB7BF1E8F17440064237D /* car_available.jpg */,
+				180EB7C01E8F17440064237D /* car_unavailable.jpg */,
+				180EB7B21E8EA9A10064237D /* parkingZone.jpg */,
+				1860A5521E8E7C5900CB9B44 /* parking_lot.jpg */,
+				1860A5501E8E7BEE00CB9B44 /* addVehicle.png */,
+				1860A54E1E8E68A700CB9B44 /* route.jpeg */,
+				1860A5481E8D569E00CB9B44 /* profileImg.png */,
+				1860A5421E8D53FC00CB9B44 /* home.png */,
+				1860A5431E8D53FC00CB9B44 /* profile.png */,
+			);
+			name = ImageAssets;
+			sourceTree = "<group>";
+		};
+		9CA76D4EB47DD58AAB8364FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD9A89AB8626D99D0D8359 /* Pods-Parking System.debug.xcconfig */,
+				DA6D2F2C290723C829E5E3BA /* Pods-Parking System.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5E6141C83B8DEB95910158A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F263AC689A1FE6744F67F5CC /* Pods_Parking_System.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1860A4D91E8A3F9600CB9B44 /* Parking System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1860A4FA1E8A3F9700CB9B44 /* Build configuration list for PBXNativeTarget "Parking System" */;
+			buildPhases = (
+				A227933925EF5194D70E2932 /* [CP] Check Pods Manifest.lock */,
+				1860A4D61E8A3F9600CB9B44 /* Sources */,
+				1860A4D71E8A3F9600CB9B44 /* Frameworks */,
+				1860A4D81E8A3F9600CB9B44 /* Resources */,
+				79660626A1F6857108974256 /* [CP] Embed Pods Frameworks */,
+				6BD6232FBAB36624CE006CC0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Parking System";
+			productName = "Parking System";
+			productReference = 1860A4DA1E8A3F9600CB9B44 /* Parking System.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1860A4F01E8A3F9700CB9B44 /* Parking SystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1860A4FD1E8A3F9700CB9B44 /* Build configuration list for PBXNativeTarget "Parking SystemTests" */;
+			buildPhases = (
+				1860A4ED1E8A3F9700CB9B44 /* Sources */,
+				1860A4EE1E8A3F9700CB9B44 /* Frameworks */,
+				1860A4EF1E8A3F9700CB9B44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1860A4F31E8A3F9700CB9B44 /* PBXTargetDependency */,
+			);
+			name = "Parking SystemTests";
+			productName = "Parking SystemTests";
+			productReference = 1860A4F11E8A3F9700CB9B44 /* Parking SystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1860A4D21E8A3F9600CB9B44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mahesh Muthusamy";
+				TargetAttributes = {
+					1860A4D91E8A3F9600CB9B44 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S45JLX7U95;
+						ProvisioningStyle = Automatic;
+					};
+					1860A4F01E8A3F9700CB9B44 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S45JLX7U95;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1860A4D91E8A3F9600CB9B44;
+					};
+				};
+			};
+			buildConfigurationList = 1860A4D51E8A3F9600CB9B44 /* Build configuration list for PBXProject "Parking System" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1860A4D11E8A3F9600CB9B44;
+			productRefGroup = 1860A4DB1E8A3F9600CB9B44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1860A4D91E8A3F9600CB9B44 /* Parking System */,
+				1860A4F01E8A3F9700CB9B44 /* Parking SystemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1860A4D81E8A3F9600CB9B44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180EB7C41E8F1F030064237D /* icon.png in Resources */,
+				1860A5441E8D53FC00CB9B44 /* home.png in Resources */,
+				1860A4EB1E8A3F9700CB9B44 /* LaunchScreen.storyboard in Resources */,
+				1860A5511E8E7BEE00CB9B44 /* addVehicle.png in Resources */,
+				180EB7C21E8F17440064237D /* car_unavailable.jpg in Resources */,
+				1860A54F1E8E68A700CB9B44 /* route.jpeg in Resources */,
+				1860A4E81E8A3F9700CB9B44 /* Assets.xcassets in Resources */,
+				1860A5491E8D569E00CB9B44 /* profileImg.png in Resources */,
+				180EB7B31E8EA9A10064237D /* parkingZone.jpg in Resources */,
+				180EB7C61E8F237B0064237D /* Images.xcassets in Resources */,
+				180EB7C11E8F17440064237D /* car_available.jpg in Resources */,
+				1860A5451E8D53FC00CB9B44 /* profile.png in Resources */,
+				1860A5531E8E7C5900CB9B44 /* parking_lot.jpg in Resources */,
+				1860A4E31E8A3F9700CB9B44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1860A4EF1E8A3F9700CB9B44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BD6232FBAB36624CE006CC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Parking System/Pods-Parking System-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79660626A1F6857108974256 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Parking System/Pods-Parking System-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A227933925EF5194D70E2932 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1860A4D61E8A3F9600CB9B44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1860A5401E8D4F4700CB9B44 /* SlotCell.swift in Sources */,
+				1860A5301E8D290900CB9B44 /* LoginRequest.swift in Sources */,
+				1860A5341E8D350C00CB9B44 /* ProgressIndicator.swift in Sources */,
+				1860A5361E8D3A0D00CB9B44 /* LoginResponse.swift in Sources */,
+				1860A54D1E8E622F00CB9B44 /* SlotDetailCell.swift in Sources */,
+				180EB7B71E8ED4110064237D /* AddVehicleRequest.swift in Sources */,
+				1860A5221E8BE00100CB9B44 /* RegistrationViewController.swift in Sources */,
+				1860A5381E8D3A5400CB9B44 /* Parser.swift in Sources */,
+				180EB7B11E8E8DC60064237D /* HistoryDetailCell.swift in Sources */,
+				1860A53C1E8D494400CB9B44 /* HomeViewController.swift in Sources */,
+				1860A53E1E8D495800CB9B44 /* ProfileViewController.swift in Sources */,
+				1860A5321E8D2E0700CB9B44 /* RegistrationRequest.swift in Sources */,
+				1860A4E01E8A3F9600CB9B44 /* ViewController.swift in Sources */,
+				1860A54B1E8E607900CB9B44 /* SlotViewController.swift in Sources */,
+				1860A5201E8BDEA300CB9B44 /* CommonUtility.swift in Sources */,
+				180EB7B51E8EBFCC0064237D /* WalletRequest.swift in Sources */,
+				1860A52E1E8D277400CB9B44 /* APIClient.swift in Sources */,
+				1860A51E1E8BDE2000CB9B44 /* AppConfig.swift in Sources */,
+				180EB7BE1E8EDED40064237D /* History.swift in Sources */,
+				1860A4DE1E8A3F9600CB9B44 /* AppDelegate.swift in Sources */,
+				1860A52C1E8D273B00CB9B44 /* ServiceManager.swift in Sources */,
+				1860A5471E8D54DE00CB9B44 /* HistoryViewController.swift in Sources */,
+				1860A53A1E8D463700CB9B44 /* UserInfo.swift in Sources */,
+				1860A4E61E8A3F9700CB9B44 /* Parking_System.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1860A4ED1E8A3F9700CB9B44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1860A4F61E8A3F9700CB9B44 /* Parking_SystemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1860A4F31E8A3F9700CB9B44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1860A4D91E8A3F9600CB9B44 /* Parking System */;
+			targetProxy = 1860A4F21E8A3F9700CB9B44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1860A4E11E8A3F9700CB9B44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1860A4E21E8A3F9700CB9B44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1860A4E91E8A3F9700CB9B44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1860A4EA1E8A3F9700CB9B44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1860A4F81E8A3F9700CB9B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1860A4F91E8A3F9700CB9B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1860A4FB1E8A3F9700CB9B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFBD9A89AB8626D99D0D8359 /* Pods-Parking System.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S45JLX7U95;
+				INFOPLIST_FILE = "Parking System/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspiresys.Parking-System";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Parking System-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1860A4FC1E8A3F9700CB9B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6D2F2C290723C829E5E3BA /* Pods-Parking System.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S45JLX7U95;
+				INFOPLIST_FILE = "Parking System/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspiresys.Parking-System";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Parking System-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1860A4FE1E8A3F9700CB9B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S45JLX7U95;
+				INFOPLIST_FILE = "Parking SystemTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspiresys.Parking-SystemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parking System.app/Parking System";
+			};
+			name = Debug;
+		};
+		1860A4FF1E8A3F9700CB9B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S45JLX7U95;
+				INFOPLIST_FILE = "Parking SystemTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aspiresys.Parking-SystemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parking System.app/Parking System";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1860A4D51E8A3F9600CB9B44 /* Build configuration list for PBXProject "Parking System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1860A4F81E8A3F9700CB9B44 /* Debug */,
+				1860A4F91E8A3F9700CB9B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1860A4FA1E8A3F9700CB9B44 /* Build configuration list for PBXNativeTarget "Parking System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1860A4FB1E8A3F9700CB9B44 /* Debug */,
+				1860A4FC1E8A3F9700CB9B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1860A4FD1E8A3F9700CB9B44 /* Build configuration list for PBXNativeTarget "Parking SystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1860A4FE1E8A3F9700CB9B44 /* Debug */,
+				1860A4FF1E8A3F9700CB9B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1860A4E41E8A3F9700CB9B44 /* Parking_System.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1860A4E51E8A3F9700CB9B44 /* Parking_System.xcdatamodel */,
+			);
+			currentVersion = 1860A4E51E8A3F9700CB9B44 /* Parking_System.xcdatamodel */;
+			path = Parking_System.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1860A4D21E8A3F9600CB9B44 /* Project object */;
+}
